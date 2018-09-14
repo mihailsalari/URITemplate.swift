@@ -635,3 +635,4 @@ private extension CharacterSet {
   static let uriTemplateReservedAllowed = {
     return URITemplate.unreserved.union(URITemplate.reserved)
   }()
+}
